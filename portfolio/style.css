@@ -589,7 +589,7 @@ resize: none;
         height: 38px;
     }
 }
-@media (max-width: 300px){
+@media (max-width: 350px){
     .home{
         justify-content: center;
         display: flex;
