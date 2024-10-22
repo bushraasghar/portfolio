@@ -589,15 +589,17 @@ resize: none;
         height: 38px;
     }
 }
-@media (max-width: 350px){
+@media (max-width: 320px){
     .home{
         justify-content: center;
         display: flex;
         align-items: center;
         flex-direction: column;
         text-align: center;
+        overflow: hidden;
     }
     .home-content{ 
+        justify-content: center;
         display: flex;
         align-items: center;
         flex-direction: column;
